@@ -3,8 +3,12 @@
   justify-content: space-evenly;
 }
 .cart-icon{
-  width: 30px;
+  width: 40px;
   color: #462be2;
+}
+.cart-number{
+  position: absolute;
+  margin: 0px auto;
 }
 .user-btn{
   padding: 8px 20px;
@@ -14,4 +18,8 @@
   font-weight: 500;
   background-color: #e8aa36;
   color: #fff;
+}
+.user-btn:hover{
+  background-color: #cf972f;
+  cursor: pointer;
 }
