@@ -1,0 +1,17 @@
+.user-cart{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cart-icon{
+  width: 30px;
+  color: #462be2;
+}
+.user-btn{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #e8aa36;
+  color: #fff;
+}
