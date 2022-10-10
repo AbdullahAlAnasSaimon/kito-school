@@ -1,0 +1,20 @@
+
+.hero-details{
+  width: 50%;
+}
+.discount{
+  font-size: 14px;
+}
+.discount-title{
+  padding: 3px 10px;
+  text-decoration: none;
+  background-color: tomato;
+  color: #fff;
+  border-radius: 50px;
+}
+.hero-main-title{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  margin: 20px 0px;
+}

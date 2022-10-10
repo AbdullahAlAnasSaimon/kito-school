@@ -1,25 +1,27 @@
 .user-cart{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
 .cart-icon{
-  width: 40px;
+  width: 30px;
   color: #462be2;
 }
-.cart-number{
-  position: absolute;
-  margin: 0px auto;
-}
 .user-btn{
-  padding: 8px 20px;
-  border: none;
-  border-radius: 50px;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 12px;
+  color: #4e4d4d;
+  font-weight: bold;
   font-size: 15px;
-  font-weight: 500;
-  background-color: #e8aa36;
-  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: #ebe9fac7;
 }
 .user-btn:hover{
-  background-color: #cf972f;
-  cursor: pointer;
+  background-color: #d9d4f9d2;
+  backdrop-filter: blur(5px);
 }
